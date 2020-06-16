@@ -12,12 +12,12 @@
 
     <div class="contenedor">
 
-        <a href="sub_ambiente.phtml" class="BotonIngreso">Ubicaciòn</a>
-        <a href="sub_usuario.phtml" class="BotonIngreso">Usuarios</a>
-        <a href="sub_ficha.phtml" class="BotonIngreso">Fichas</a>
-        <a href="sub_R_usuario.phtml" class="BotonIngreso">Reporte por usuario</a>
-        <a href="sub_R_ficha.phtml" class="BotonIngreso">Reporte por ficha</a>
-        <a href="sub_R_ambiente.phtml" class="BotonIngreso">Reporte por ambiente</a>
+        <a href="sub_ambiente.phtml" class="BotonIngreso" target="_blank">Ubicación</a>
+        <a href="sub_usuario.phtml" class="BotonIngreso" target="_blank">Usuarios</a>
+        <a href="sub_ficha.phtml" class="BotonIngreso" target="_blank">Fichas</a>
+        <a href="sub_R_usuario.phtml" class="BotonIngreso" target="_blank">Reporte por usuario</a>
+        <a href="sub_R_ficha.phtml" class="BotonIngreso" target="_blank">Reporte por ficha</a>
+        <a href="sub_R_ambiente.phtml" class="BotonIngreso" target="_blank">Reporte por ambiente</a>
 
     </div>
 
