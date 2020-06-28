@@ -10,7 +10,7 @@
         $salida=0;
         
         $conexion= mysqli_connect("localhost","root","toor","control_covid");
-        $sql= "INSERT INTO sedes(nombre_nivel)";
+        $sql= "INSERT INTO nivel_curso(nombre_nivel)";
         $sql.="VALUES ('$nombre_nivel');";
         $conexion->query($sql);
 

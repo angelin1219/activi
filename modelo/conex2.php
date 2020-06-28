@@ -12,7 +12,7 @@
         $salida=0;
         
         $conexion= mysqli_connect("localhost","root","toor","control_covid");
-        $sql= "INSERT INTO sedes(nombre_ubicacion,descripcion,id_sede)";
+        $sql= "INSERT INTO ubicacion(nombre_ubicacion,descripcion,id_sede)";
         $sql.="VALUES ('$nombre_ubicacion','$descripcion','$id_sede');";
         $conexion->query($sql);
 

@@ -10,7 +10,7 @@
         $salida=0;
         
         $conexion= mysqli_connect("localhost","root","toor","control_covid");
-        $sql= "INSERT INTO sedes(nombre_tipo_documento)";
+        $sql= "INSERT INTO tipo_documento(nombre_tipo_documento)";
         $sql.="VALUES ('$nombre_tipo_documento');";
         $conexion->query($sql);
 

@@ -2,16 +2,16 @@
 
     /**
      * Esta funcion guarda las sedes.
-     * @param   texto   El nombre del estado del usuario.
+     * @param   texto   El nombre del tipo de rol de la persona.
      * @return  numero  1 para exito, 0 para error.
      */
 
-    function guardar_estado_usuario($nombre_estado){
+    function guardar_roles($nombre_rol){
         $salida=0;
         
         $conexion= mysqli_connect("localhost","root","toor","control_covid");
-        $sql= "INSERT INTO estado_usuario(nombre_estado)";
-        $sql.="VALUES ('$nombre_estado');";
+        $sql= "INSERT INTO roles(nombre_rol)";
+        $sql.="VALUES ('$nombre_rol');";
         $conexion->query($sql);
 
         if(mysqli_affected_rows($conexion)>0){
